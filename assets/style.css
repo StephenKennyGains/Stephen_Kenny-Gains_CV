@@ -1,0 +1,94 @@
+body {
+
+}
+
+/* Navigation Bar */
+
+#nav {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.ui-menu-color-education {
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-work-history {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #e74c3c;
+}
+
+.menuitem {
+    height: 100px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 100px;
+}
+
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 100px;
+}
+
+/* Title and Profile Picture */
+
+.title {
+    background-color: rgb(109, 109, 109);
+    margin-top: 100px;
+}
+
+.profile-pic{
+    background-image: url(../assets/images/Profile_Picture.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 360px;
+}
+
+/* Education Section */
+
+.CI-Logo {
+    max-width: 150px;
+    height: auto;
+}
+
+.language-images-container {
+    min-height: 200px;
+}
+
+.language-images {
+    max-width: 200px;
+    height: auto;
+}
