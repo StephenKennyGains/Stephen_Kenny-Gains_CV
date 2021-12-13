@@ -1,7 +1,3 @@
-body {
-
-}
-
 /* Navigation Bar */
 
 #nav {
@@ -71,7 +67,7 @@ body {
 }
 
 .profile-pic{
-    background-image: url(../assets/images/Profile_Picture.jpg);
+    background-image: url(../assets/images/headshot.jpg);
     background-position: center;
     background-repeat: no-repeat;
     min-height: 360px;
