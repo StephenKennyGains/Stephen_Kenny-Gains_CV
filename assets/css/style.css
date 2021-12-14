@@ -75,7 +75,6 @@
 
 .title {
     background-color: rgb(201, 201, 201);
-    margin-top: 100px;
 }
 
 .profile-pic{
@@ -101,8 +100,8 @@
 }
 
 .language-images {
-    width: 75px;
-    height: 75px;
+    max-width: 150px;
+    max-height: 150px;
 }
 
 .progress {
@@ -131,6 +130,28 @@
     background-color: #1c496c79;
 }
 
+/* Work History Section */
+
 #Contact {
     background-color: #3498db7a;
+}
+
+.contact i {
+    font-size: 3rem;
+}
+
+.contact p {
+    font-size: 1.75rem;
+}
+
+.contact>a {
+    text-decoration: none;
+}
+
+@media(max-width: 440px) {
+    
+    .title {
+        margin-top: 100px;
+    }
+
 }
