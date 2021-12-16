@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto&display=swap');
+
+
 /* Navigation Bar */
 
 #nav {
@@ -71,6 +74,18 @@
     padding-bottom: 25px;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
 /* Title and Profile Picture */
 
 .title {
@@ -136,26 +151,25 @@
     background-color: #3498db7a;
 }
 
+.contact a {
+    text-decoration: none;
+    color: black;
+}
+
 .contact i {
     font-size: 3rem;
+    text-decoration: none;
 }
 
 .contact p {
     font-size: 1.75rem;
 }
 
-.contact>a {
-    text-decoration: none;
-}
-
 /* Resume Section */
 
-#MyResume {
+#Resume {
     background-color: #e74d3c67;
 }
-
-/* Footer Section */
-
 
 
 @media(max-width: 440px) {
