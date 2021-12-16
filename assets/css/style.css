@@ -148,6 +148,18 @@
     text-decoration: none;
 }
 
+/* Resume Section */
+
+#Resume {
+    background-color: #e74d3c67;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #525252;
+}
+
 @media(max-width: 440px) {
     
     .title {
