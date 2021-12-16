@@ -130,7 +130,7 @@
     background-color: #1c496c79;
 }
 
-/* Work History Section */
+/* Contact Section */
 
 #Contact {
     background-color: #3498db7a;
@@ -150,15 +150,13 @@
 
 /* Resume Section */
 
-#Resume {
+#MyResume {
     background-color: #e74d3c67;
 }
 
 /* Footer Section */
 
-footer {
-    background-color: #525252;
-}
+
 
 @media(max-width: 440px) {
     
